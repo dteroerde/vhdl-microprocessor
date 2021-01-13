@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="microprocessor_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="microprocessor" />
+            <top_module name="program_def" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="190000001fs"></ZoomEndTime>
+      <Cursor1Time time="5000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="167"></NameColumnWidth>
+      <ValueColumnWidth column_width="154"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/microprocessor/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/microprocessor/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/microprocessor/opc" type="array">
+      <obj_property name="ElementShortName">opc[4:0]</obj_property>
+      <obj_property name="ObjectShortName">opc[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/microprocessor/cbus" type="array">
+      <obj_property name="ElementShortName">cbus[10:0]</obj_property>
+      <obj_property name="ObjectShortName">cbus[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/microprocessor/doutdbus" type="array">
+      <obj_property name="ElementShortName">doutdbus[3:0]</obj_property>
+      <obj_property name="ObjectShortName">doutdbus[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/microprocessor/aluout" type="array">
+      <obj_property name="ElementShortName">aluout[3:0]</obj_property>
+      <obj_property name="ObjectShortName">aluout[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/microprocessor/const" type="array">
+      <obj_property name="ElementShortName">const[3:0]</obj_property>
+      <obj_property name="ObjectShortName">const[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/microprocessor/membus" type="array">
+      <obj_property name="ElementShortName">membus[3:0]</obj_property>
+      <obj_property name="ObjectShortName">membus[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/microprocessor/piobus" type="array">
+      <obj_property name="ElementShortName">piobus[3:0]</obj_property>
+      <obj_property name="ObjectShortName">piobus[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/microprocessor/pioport" type="array">
+      <obj_property name="ElementShortName">pioport[3:0]</obj_property>
+      <obj_property name="ObjectShortName">pioport[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/microprocessor/dataMemory/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/microprocessor/dataMemory/we" type="logic">
+      <obj_property name="ElementShortName">we</obj_property>
+      <obj_property name="ObjectShortName">we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/microprocessor/dataMemory/re" type="logic">
+      <obj_property name="ElementShortName">re</obj_property>
+      <obj_property name="ObjectShortName">re</obj_property>
+   </wvobject>
+   <wvobject fp_name="/microprocessor/dataMemory/addr" type="array">
+      <obj_property name="ElementShortName">addr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/microprocessor/dataMemory/din" type="array">
+      <obj_property name="ElementShortName">din[3:0]</obj_property>
+      <obj_property name="ObjectShortName">din[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/microprocessor/dataMemory/dout" type="array">
+      <obj_property name="ElementShortName">dout[3:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/microprocessor/dataMemory/dram" type="array">
+      <obj_property name="ElementShortName">dram[0:7][3:0]</obj_property>
+      <obj_property name="ObjectShortName">dram[0:7][3:0]</obj_property>
+   </wvobject>
+</wave_config>
